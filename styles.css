@@ -1,0 +1,28 @@
+:root {
+  --R: 0;
+  --G: 0;
+  --B: 0;
+}
+
+body {
+  font-size: 2em;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.square {
+  height: 160px;
+  width: 160px;
+  background-color: rgb(var(--R), var(--G), var(--B));
+  align-content: center;
+  display: flexbox;
+  justify-items: center;
+  margin: auto;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.short {
+  width: 30px;
+}

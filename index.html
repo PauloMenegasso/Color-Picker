@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seletor de cores</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Seletor de Cores</h1>
+    <p>
+      Arraste as barras para misturar as cores Vemelho (R) Verde (G) e Azul (B)
+    </p>
+    <div>
+      <label>R</label>
+      <input id="valueRed" type="range"value="0" min="0" max="255" step="1"></imput>
+      <label><input id="currentRed" class="short" type="text" placeholder="0" disabled></label>
+    </div>
+    <div>
+      <label>G</label>
+      <input id="valueGreen" type="range"value="0" min="0" max="255" step="1"></imput>
+      <label><input id="currentGreen" class="short" type="text" placeholder="0" disabled></label>
+    </div>
+    <div>
+      <label>B</label>
+      <input id="valueBlue"type="range"value="0" min="0" max="255" step="1"></imput>
+      <label><input id="currentBlue" class="short" type="text" placeholder="0" disabled></label>
+    </div>
+
+
+    <p>Observo o resultado da mistura neste quadrado</p>
+    <div class="square"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
